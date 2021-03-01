@@ -1,0 +1,16 @@
+package "PA"
+version "1.0"
+purpose "Gabriel Chicaiza 2192833"
+description "Aplicacao nanoShell"
+
+#----------------------------
+# independent options
+#----------------------------
+# Optional
+option "file"          f    "File"          string     typestr="<file>"     optional 
+option "max"           m    "Max"           int        typestr="<int>"      optional                        
+option "signalfile"    s    "Signal File"                                   optional         
+
+#
+# NOTE: support for this file needs to be enabled in 'makefile'
+#
