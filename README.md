@@ -30,6 +30,23 @@ sudo apt-get update
 ```
 
 ## Usage:
+To execute nanoShell with default settings
+
+```bash
+./nanoShell
+```
+nanoShell have differents options that you can use when executing the program.
+
+```bash
+# Max comands
+./nanoshell -m 3
+
+# Run commands within a file
+./nanoshell -f file.txt
+
+# Create a signal file to nanoShell
+./nanoshell -s
+```
 
 Table of the option available for nanoShell.
 
